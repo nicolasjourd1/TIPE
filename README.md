@@ -1,5 +1,5 @@
 # TIPE
-Code C++ de mon TIPE sur le thème jeux et sports, sujet "Interaction d'une raquette connectée avec un environnement
+Code C++ de mon TIPE sur le thème "jeux et sports", sujet "Interaction d'une raquette connectée avec un environnement
 virtuel". 
 
 Ce programme lit les données d'un capteur MPU6050 (accéléromètre et gyroscope) connecté à une Arduino, le tout fixé sur une raquette. Il met ensuite à jour la position d'un pavé droit représentant la raquette. 
