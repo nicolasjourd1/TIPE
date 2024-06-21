@@ -23,11 +23,11 @@ Compilation et tests réalisés avec une installation de [msys2](https://www.msy
 `premake5 gmake2 && make config=release && ./bin/Release/Application.exe`
 
 ## Éxecution
-Tel qu'écrit le programme ne fonctionne que si une Arduino est connectée au port `COM3` de l'ordinateur. De plus le programme lit les données du MPU6050 dans un format bien précis (voir le sketch arduino pour le format du texte envoyé).
+Tel qu'écrit le programme ne fonctionne que si une Arduino est connectée au port `COM3` de l'ordinateur. De plus le programme lit les données du MPU6050 dans un format bien précis (voir le sketch Arduino pour le format du texte envoyé).
 
-# Résultatsa
+# Résultats
 <p float="left">
-<img src="images/res1.jpeg" width="200"/>
-<img src="images/res2.jpeg" width="200"/>
-<img src="images/res3.jpeg" width="200"/>
+<img src="images/res1.jpeg" width="230"/>
+<img src="images/res2.jpeg" width="230"/>
+<img src="images/res3.jpeg" width="230"/>
 </p>
