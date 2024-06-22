@@ -6,26 +6,26 @@ Ce programme lit les données d'un capteur MPU6050 (accéléromètre et gyroscop
 
 Une interaction basique entre une balle et de la raquette est aussi implémentée.
 
-# Dépendances
+## Dépendances
 Nécessite un environnement de développement C++ classique, [premake5](https://premake.github.io/) ainsi que les bibliothèques [SDL2](https://libsdl.org/) et [Eigen3](https://eigen.tuxfamily.org/).
 
 Il peut être nécessaire de modifier le fichier `premake5.lua` selon le répertoire d'installation des bibliothèques.
 
 Compilation et tests réalisés avec une installation de [msys2](https://www.msys2.org/) (environnement UCRT64).
 
-# Compilation et exécution
+## Compilation et exécution
 
 ([Compatible avec d'autres types de projets](https://premake.github.io/docs/Using-Premake))
 
-## Debug
+### Debug
 `premake5 gmake2 && make config=debug && ./bin/Debug/Application.exe`
-## Release
+### Release
 `premake5 gmake2 && make config=release && ./bin/Release/Application.exe`
 
-## Éxecution
+### Éxecution
 Tel qu'écrit le programme ne fonctionne que si une Arduino est connectée au port `COM3` de l'ordinateur. De plus le programme lit les données du MPU6050 dans un format bien précis (voir le sketch Arduino pour le format du texte envoyé).
 
-# Résultats
+## Résultats
 <p float="left">
 <img src="images/res1.jpeg" width="230"/>
 <img src="images/res2.jpeg" width="230"/>
