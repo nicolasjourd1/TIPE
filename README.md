@@ -4,7 +4,7 @@ virtuel".
 
 Ce programme lit les données d'un capteur MPU6050 (accéléromètre et gyroscope) connecté à une Arduino, le tout fixé sur une raquette. Il met ensuite à jour la position d'un pavé droit représentant la raquette. 
 
-Une interaction basique entre une balle et de la raquette est aussi implémentée.
+Une interaction basique entre une balle et la raquette est aussi implémentée.
 
 ## Dépendances
 Nécessite un environnement de développement C++ classique, [premake5](https://premake.github.io/) ainsi que les bibliothèques [SDL2](https://libsdl.org/) et [Eigen3](https://eigen.tuxfamily.org/).
